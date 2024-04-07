@@ -24,6 +24,9 @@
     <ClInclude Include="src\Llama.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="src\Llama\EntryPoint.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Llama\Application.cpp">

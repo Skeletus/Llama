@@ -13,5 +13,8 @@ namespace Llama
 
 		void Run();
 	};
+
+	// to be define in client
+	Application* CreateApplication();
 }
 
