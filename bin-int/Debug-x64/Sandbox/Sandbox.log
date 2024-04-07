@@ -1,3 +1,2 @@
-﻿  Application.cpp
-D:\Llamaxd\Llama\Sandbox\src\Application.cpp(9,1): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
+﻿  SandboxApp.cpp
   Sandbox.vcxproj -> D:\Llamaxd\Llama\bin\Debug-x64\Sandbox\Sandbox.exe
