@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Llama\Log.h" />
     <ClInclude Include="src\Llama.h" />
     <ClInclude Include="src\Llama\Application.h" />
     <ClInclude Include="src\Llama\Core.h" />
     <ClInclude Include="src\Llama\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Llama\Log.cpp" />
     <ClCompile Include="src\Llama\Application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
