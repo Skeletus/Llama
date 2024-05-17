@@ -53,7 +53,7 @@ project "Llama"
 		defines "LLAMA_RELEASE"
 		optimize "On"
 
-	files "configurations:Dist"
+	filter "configurations:Dist"
 		defines "LLAMA_DIST"
 		optimize "On"
 
@@ -100,6 +100,6 @@ project "Sandbox"
 		defines "LLAMA_RELEASE"
 		optimize "On"
 
-	files "configurations:Dist"
+	filter "configurations:Dist"
 		defines "LLAMA_DIST"
 		optimize "On"
