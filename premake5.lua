@@ -24,7 +24,7 @@ project "Llama"
 		"%{prj.name}/src/**.cpp"
 	}
 
-	include
+	includedirs
 	{
 		"%{prj.name}/vendor/spdlog/include"
 	}
@@ -73,7 +73,7 @@ project "Sandbox"
 		"%{prj.name}/src/**.cpp"
 	}
 
-	include
+	includedirs
 	{
 		"%{prj.name}/vendor/spdlog/include",
 		"Llama/src"
