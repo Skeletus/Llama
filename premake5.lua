@@ -57,8 +57,6 @@ project "Llama"
 		defines "LLAMA_DIST"
 		optimize "On"
 
-	LLAMA_PLATFORM_WINDOWS;LLAMA_BUILD_DLL;_WINDLL;
-
 project "Sandbox"
 	location "Sandbox"
 	kind "ConsoleApp"
